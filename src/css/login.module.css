@@ -1,0 +1,51 @@
+.containerLog{
+  display: grid;
+  width: 100vw; /* 100% del ancho del viewport */
+  height: 100vh;
+  padding: auto 10px;
+  background-image: url("../assets/airplane-2594476.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fija la imagen al hacer scroll */
+  align-content: space-evenly;
+  justify-content: center;
+}
+
+.tran_input{
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  outline: none;
+  color: #eac445;
+}
+.div_log {
+  display: grid;
+
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.234);
+  padding: 30px;
+  border-radius: 12px;
+  color: white;
+}
+
+input::placeholder{
+  color: gray;
+  opacity: 0.8;
+}
+
+.button_log {
+  background-color: transparent;
+  color:white;
+  border: 1px solid #eac445;
+  border-radius: 15px;
+  width: 100%;
+  height: 40px;
+}
+.button_log:hover {
+  transform: scale(1.1);
+}
+.error {
+  color: red;
+  font-size: 12px;
+}

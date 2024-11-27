@@ -1,0 +1,35 @@
+.containerPrincipal {
+  display: grid;
+  width: 100vw; /* 100% del ancho del viewport */
+  height: 100vh;
+  padding: auto 10px;
+  background-image: url("../assets/airplane-2594476.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fija la imagen al hacer scroll */
+  align-content: space-evenly;
+}
+
+.containerPrecentacion {
+    display: grid;
+    justify-items: center;
+  text-align: center;
+  width: auto;
+  padding: auto 10px;
+  color: white;
+}
+
+.botones {
+  width: 200px;
+  border: 1px #eac445 solid;
+  border-radius: 32px;
+  margin: 10px 10px;
+  background-color: transparent;
+  color: white;
+}
+.botones:hover {
+  background-color: transparent;
+  border-color: #eac445;
+  transform: scale(1.1);
+}
